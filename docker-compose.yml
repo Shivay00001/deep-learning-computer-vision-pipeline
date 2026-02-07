@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  cv-pipeline:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      - DEVICE=cpu
