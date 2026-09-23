@@ -44,6 +44,6 @@ async def detect_objects(file: UploadFile = File(...)):
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
 
-@app.get("/models")
+@router.get("/models")
 async def list_models():
     return {"available_models": [settings.DEFAULT_MODEL]}
