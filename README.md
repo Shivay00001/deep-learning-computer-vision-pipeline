@@ -1,5 +1,7 @@
 # Deep Learning Computer Vision Pipeline
 
+Built by [VisionQuantech](https://visionquantech.com) — AI agents, apps & tools for small businesses.
+
 Deep Learning Computer Vision Pipeline — Python, Go & Docker
 
 ![Language](https://img.shields.io/badge/Language-HTML-blue)
